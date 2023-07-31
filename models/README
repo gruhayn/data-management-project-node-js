@@ -1,0 +1,21 @@
+To install:
+
+you can use your own mongoDB server or install docker and run mongoDb on docker.
+
+You can use this link for moongoDb:
+https://www.linkedin.com/pulse/setup-mongodb-docker-linux-container-windows-10-volume-kumaran/
+
+URIlink for mongoDB: mongodb://admin:p@ssword@localhost:27017/?authMechanism=DEFAULT&authSource=admin
+
+After installing these open project folder and run:
+
+npm install
+
+This command line will install all requirements.
+
+You can import csv files through MongoDB Compass.
+
+After succesful installation run this command to run app:
+nodemon app
+
+You should see "connected to db" sentence. This means you succesfully connected to database and can work on a project

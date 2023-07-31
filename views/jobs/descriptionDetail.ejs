@@ -1,0 +1,28 @@
+
+<html lang="en">
+
+    <%- include('../partials/header.ejs') %>
+
+    <body>
+
+        <a class="back btn btn-info">Go back</a>
+        
+        <p><%= description %></p>
+        
+
+
+
+    <%- include('../partials/footer.ejs') %>
+    </body>
+
+    <script>
+
+        const back = document.querySelector('a.back');
+
+        back.addEventListener('click', (e) => {
+            history.back();
+        })
+
+    </script>
+</html>
+
